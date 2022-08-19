@@ -5,6 +5,7 @@ const hoursRestaurantTitle = document.createElement('div');
 const hoursRestaurantContent = document.createElement('ol');
 const locationRestaurant = document.createElement('div');
 const locationRestaurantContent = document.createElement('div');
+const footerTrademark = document.createElement('footer');
 
 homeContainer.className = "bodyContent";
 hoursRestaurant.className = "hoursInfo"
@@ -16,7 +17,7 @@ hoursRestaurant.appendChild(hoursRestaurantTitle);
 hoursRestaurant.appendChild(hoursRestaurantContent);
 homeContainer.appendChild(locationRestaurant);
 homeContainer.appendChild(locationRestaurantContent);
-
+homeContainer.appendChild(footerTrademark);
 
 testimonialRestaurant.textContent = "wow so good! much likes! - real person";
 hoursRestaurantTitle.textContent = "Hours";
@@ -29,9 +30,7 @@ for (let i = 0; i < days.length; i++) {
 
 locationRestaurant.textContent = "Location";
 locationRestaurantContent.textContent = "Your mom! haha"
-
-
-
+footerTrademark.textContent = "I own all this so no worries. kidding";
 
 
 
