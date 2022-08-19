@@ -1,3 +1,4 @@
+import homeContainer from '../src/home.js';
 import './style.css';
 
 const content = document.querySelector('#content');
@@ -19,3 +20,4 @@ homeTab.textContent = "Home";
 menuTab.textContent = "Menu";
 contactTab.textContent = "Contact";
 
+content.appendChild(homeContainer);
