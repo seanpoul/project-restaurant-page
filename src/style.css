@@ -1,0 +1,6 @@
+.navigate{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    align-content: center;
+    background-color: red;
+}
