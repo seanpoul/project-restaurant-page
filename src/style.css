@@ -1,8 +1,21 @@
-.navigate{
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navigate {
     display: grid;
     grid-template-columns: repeat(3, 100px);
 }
 
-li{
+li {
     list-style: none;
 }
+
+.bodyContent {
+    background-image: url(./images/thomas-park-N9t-33mrqeg-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+

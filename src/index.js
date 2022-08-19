@@ -21,3 +21,6 @@ menuTab.textContent = "Menu";
 contactTab.textContent = "Contact";
 
 content.appendChild(homeContainer);
+
+
+// eventlistener for each tab here
