@@ -33,26 +33,31 @@ li {
 
 .bodyContent {
     background-image: url(./images/background-bottles.jpg);
-    background-size: contain;
     min-height: 90vh;
 }
 
 img {
     height: 600px;
     width: auto;
+    border: chocolate solid 20px;
 }
 
-.homeContainer,
-.contactContainer {
+.homeContainer {
     display: grid;
     grid-template-rows: 180px 300px 180px;
+}
+
+.contactContainer {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+
 }
 
 .box {
     display: grid;
     border: chocolate solid 20px;
     background-color: rgb(255, 255, 58);
-    margin: 20px 80px;
+    margin: 20px 300px;
     font-size: 20px;
     justify-content: center;
     align-items: center;
@@ -62,4 +67,9 @@ img {
 .boxTitle {
     font-weight: bold;
     font-size: 32px;
+}
+
+.workerName {
+    font-size: 32px;
+    font-weight: bold;
 }

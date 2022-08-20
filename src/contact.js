@@ -32,10 +32,13 @@ workerThreeBox.className = "box";
 workerOneInfo.className = "workerOneInfo";
 workerTwoInfo.className = "workerTwoInfo";
 workerThreeInfo.className = "workerThreeInfo";
+workerOneName.className = "workerName";
+workerTwoName.className = "workerName";
+workerThreeName.className = "workerName";
 
-workerOneName.textContent = "Bob"
-workerTwoName.textContent = "Mary";
-workerThreeName.textContent = "Joe";
+workerOneName.textContent = "Bob - Head Manager"
+workerTwoName.textContent = "Mary - Head Chef";
+workerThreeName.textContent = "Joe - Head Waiter";
 
 workerOneNumber.textContent = "555-555-5554";
 workerTwoNumber.textContent = "555-555-5555"
