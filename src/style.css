@@ -3,14 +3,22 @@
     margin: 0;
 }
 
-.header, .footer{
+.header,
+.footer {
     background-color: rgb(255, 255, 58);
+    border: chocolate solid 10px;
     padding-left: 10px;
     padding-top: 5px;
 }
 
-.footer{
-    font-size: 20px;
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.footer {
+    font-size: 16px;
+    padding-bottom: 5px;
 }
 
 button {
@@ -26,10 +34,32 @@ li {
 .bodyContent {
     background-image: url(./images/background-bottles.jpg);
     background-size: contain;
+    min-height: 90vh;
 }
 
-img{
+img {
     height: 600px;
     width: auto;
 }
 
+.homeContainer,
+.contactContainer {
+    display: grid;
+    grid-template-rows: 180px 300px 180px;
+}
+
+.box {
+    display: grid;
+    border: chocolate solid 20px;
+    background-color: rgb(255, 255, 58);
+    margin: 20px 80px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.boxTitle {
+    font-weight: bold;
+    font-size: 32px;
+}

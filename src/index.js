@@ -28,7 +28,7 @@ homeTab.className = "tabLink";
 menuTab.className = "tabLink";
 contactTab.className = "tabLink";
 bodyContent.className = "bodyContent";
-footerTrademark. className = "footer";
+footerTrademark.className = "footer";
 
 headerName.textContent = "Fabulous food stuff emporium";
 homeTab.textContent = "Home";
@@ -39,14 +39,16 @@ footerTrademark.innerHTML = 'Back ground photo by  <a href="https://unsplash.com
 bodyContent.append(homeContainer);
 
 navigateDiv.addEventListener('click', (event) => {
-    bodyContent.innerHTML = ""
-    if (event.target.textContent === homeTab.textContent) {
+    if (event.target.textContent == homeTab.textContent) {
+        bodyContent.innerHTML = ""
         bodyContent.append(homeContainer);
     }
-    if (event.target.textContent === menuTab.textContent) {
+    if (event.target.textContent == menuTab.textContent) {
+        bodyContent.innerHTML = ""
         bodyContent.append(menuContainer);
     }
-    if (event.target.textContent === contactTab.textContent) {
+    if (event.target.textContent == contactTab.textContent) {
+        bodyContent.innerHTML = ""
         bodyContent.append(contactContainer);
     }
 })

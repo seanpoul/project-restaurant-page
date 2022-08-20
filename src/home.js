@@ -30,8 +30,11 @@ testimonialBox.className = "box";
 hoursBox.className = "box";
 locationBox.className = "box";
 testimonialRestaurant.className = "testimonialInfo";
+testimonialRestaurantTitle.className = "boxTitle";
 hoursRestaurant.className = "hoursInfo";
+hoursRestaurantTitle.className= "boxTitle";
 locationRestaurant.className = "locationInfo";
+locationRestaurantTitle.className = "boxTitle";
 
 let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
