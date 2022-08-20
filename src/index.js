@@ -36,7 +36,8 @@ menuTab.textContent = "Menu";
 contactTab.textContent = "Contact";
 footerTrademark.innerHTML = 'Back ground photo by  <a href="https://unsplash.com/es/@thomascpark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas Park</a> on <a href="https://unsplash.com/collections/OWwpYCx7o_0/bilder-f%C3%BCr-auditpartner.de---unsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>" ';
 
-bodyContent.append(homeContainer);
+// bodyContent.append(homeContainer);
+bodyContent.append(menuContainer);
 
 navigateDiv.addEventListener('click', (event) => {
     if (event.target.textContent == homeTab.textContent) {

@@ -19,6 +19,7 @@
 .footer {
     font-size: 16px;
     padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 button {
@@ -37,9 +38,10 @@ li {
 }
 
 img {
-    height: 600px;
+    height: 500px;
     width: auto;
     border: chocolate solid 20px;
+    border-radius: 10px;
 }
 
 .homeContainer {
@@ -50,7 +52,6 @@ img {
 .contactContainer {
     display: grid;
     grid-template-rows: 200px 200px 200px;
-
 }
 
 .box {
@@ -72,4 +73,22 @@ img {
 .workerName {
     font-size: 32px;
     font-weight: bold;
+}
+
+.menuContainer {
+    display: grid;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.menuItems{
+    display: grid;
+    grid-template-columns: auto 300px;
+    margin: 10px ;
+}
+
+.NDP{
+    align-self: center;
+    padding-left: 10px;
+    font-size: 24px;
 }

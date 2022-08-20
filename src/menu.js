@@ -3,18 +3,8 @@ import lunch from './images/lunch-platter.jpg';
 import dinner from './images/dinner-spaghetti.jpg';
 
 const menuContainer = document.createElement('div');
-// const breakfastBox = document.createElement('div');
-// const lunchBox = document.createElement('div');
-// const dinnerBox = document.createElement('div');
-
-// menuContainer.appendChild(breakfastBox);
-// menuContainer.appendChild(lunchBox);
-// menuContainer.appendChild(dinnerBox);
 
 menuContainer.className = "menuContainer";
-// breakfastBox.className = "box";
-// lunchBox.className = "box";
-// dinnerBox.className = "box";
 
 const menuItem = [
     {
@@ -38,11 +28,13 @@ const menuItem = [
 for (let i = 0; i < menuItem.length; i++) {
     let menuItemContainer = document.createElement('div');
     let menuImage = document.createElement('img');
+    let menuNDP = document.createElement('div');
     let menuName = document.createElement('h3');
     let menuDescription = document.createElement('p');
     let menuPrice = document.createElement('p');
 
     menuItemContainer.className = "menuItems";
+    menuNDP.className = "NDP"
 
     menuImage.src = menuItem[i].image;
     menuName.textContent = menuItem[i].name;
@@ -51,9 +43,10 @@ for (let i = 0; i < menuItem.length; i++) {
 
     menuContainer.appendChild(menuItemContainer);
     menuItemContainer.appendChild(menuImage);
-    menuItemContainer.appendChild(menuName);
-    menuItemContainer.appendChild(menuDescription);
-    menuItemContainer.appendChild(menuPrice);
+    menuItemContainer.appendChild(menuNDP);
+    menuNDP.appendChild(menuName);
+    menuNDP.appendChild(menuDescription);
+    menuNDP.appendChild(menuPrice);
 };
 
 export default menuContainer;
