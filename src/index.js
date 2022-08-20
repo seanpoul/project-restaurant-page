@@ -1,4 +1,5 @@
 import homeContainer from '../src/home.js';
+import menuContainer from '../src/menu.js';
 import contactContainer from '../src/contact.js';
 import './style.css';
 
