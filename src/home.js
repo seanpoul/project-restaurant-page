@@ -32,14 +32,14 @@ locationBox.className = "box";
 testimonialRestaurant.className = "testimonialInfo";
 testimonialRestaurantTitle.className = "boxTitle";
 hoursRestaurant.className = "hoursInfo";
-hoursRestaurantTitle.className= "boxTitle";
+hoursRestaurantTitle.className = "boxTitle";
 locationRestaurant.className = "locationInfo";
 locationRestaurantTitle.className = "boxTitle";
 
 let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 testimonialRestaurantTitle.textContent = "Testimony"
-testimonialRestaurantContent.textContent = "wow so good! much likes! - real person";
+testimonialRestaurantContent.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. - a real person";
 hoursRestaurantTitle.textContent = "Hours";
 
 for (let i = 0; i < days.length; i++) {
@@ -49,6 +49,6 @@ for (let i = 0; i < days.length; i++) {
 }
 
 locationRestaurantTitle.textContent = "Location";
-locationRestaurantContent.textContent = "Your mom! haha"
+locationRestaurantContent.textContent = "123 Fake Address Avenue, Earth, Milky Way"
 
 export default homeContainer;

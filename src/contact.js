@@ -36,9 +36,9 @@ workerOneName.className = "workerName";
 workerTwoName.className = "workerName";
 workerThreeName.className = "workerName";
 
-workerOneName.textContent = "Bob - Head Manager"
-workerTwoName.textContent = "Mary - Head Chef";
-workerThreeName.textContent = "Joe - Head Waiter";
+workerOneName.textContent = "Bob the Builder - Head Manager"
+workerTwoName.textContent = "Mary had a little lamb - Head Chef";
+workerThreeName.textContent = "Joe Fixit - Head Waiter";
 
 workerOneNumber.textContent = "555-555-5554";
 workerTwoNumber.textContent = "555-555-5555"
