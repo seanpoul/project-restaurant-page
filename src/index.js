@@ -4,30 +4,33 @@ import contactContainer from '../src/contact.js';
 import './style.css';
 
 const content = document.querySelector('#content');
-const bodyContent = document.createElement('div');
-const header = document.createElement('h1');
+const header = document.createElement('div');
+const headerName = document.createElement('h1');
+const navigateDiv = document.createElement('div');
 const homeTab = document.createElement('button');
 const menuTab = document.createElement('button');
 const contactTab = document.createElement('button');
-const navigateDiv = document.createElement('div');
+const bodyContent = document.createElement('div');
 const footerTrademark = document.createElement('footer');
 
 content.appendChild(header);
-content.appendChild(navigateDiv);
+header.appendChild(headerName);
+header.appendChild(navigateDiv);
 navigateDiv.appendChild(homeTab);
 navigateDiv.appendChild(menuTab);
 navigateDiv.appendChild(contactTab);
 content.appendChild(bodyContent);
 content.appendChild(footerTrademark);
 
+header.className = "header"
 navigateDiv.className = "navigateDiv";
-
 homeTab.className = "tabLink";
 menuTab.className = "tabLink";
 contactTab.className = "tabLink";
 bodyContent.className = "bodyContent";
+footerTrademark. className = "footer";
 
-header.textContent = "Fabulous food stuff emporium";
+headerName.textContent = "Fabulous food stuff emporium";
 homeTab.textContent = "Home";
 menuTab.textContent = "Menu";
 contactTab.textContent = "Contact";
